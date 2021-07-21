@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PCV of Nikita Arkhipov</title>
+<style>
+body { font-size: 150%; }
+a:link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: Gray;
+}
+a:hover {
+  color: DarkBlue;
+}
+h2{
+   text-align: center;
+}
+.t0 {
+   vertical-align: middle;
+   height: 100vh;
+   display:table-cell;
+   position: relative;
+   transform: translateX(25%);
+}
+.ltext {
+   margin: 0 0 0 5%;
+}
+
+.gradient { 
+    background: linear-gradient(-45deg, #2980B9, #FFA500, #0000FF, #8A2BE2);
+    background-size: 200% 200%;
+    animation: gradient 25s ease infinite;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.figure {
+	border: solid LightGray;
+	border-width: 1px;
+	border-radius: 7px;
+   }
+@keyframes gradient {
+    0% {
+        background-position: 70 60%;
+}
+    50% {
+        background-position: 145% 90%;
+}
+    100% {
+        background-position: 70 60%;
+}
+}
+</style>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $(idorigin).click(function() {
+    var elementClick = $(this).attr("href")
+    var destination = $(elementClick).offset().top;
+    jQuery("html:not(:animated),body:not(:animated)").animate({
+      scrollTop: destination
+    }, 800);
+    return false;
+  });
+});
+</script>
+</head>
+<body>
+<div class="t0 gradient"><h1>Hello, I am Nikita Arkhipov, a FullStack web developer_</h1>
+<a href="#div1" id="idorigin">▽</a></div>
+<div id="div1"><h2>About me</h2></div>
+<div class="ltext">I'm a full-stack web developer with 1 year of professional experience. The scope of my work is a large part of the front end: HTML/CSS/Javascript, building Single Page Applications, designing web application using modern approaches.
+<br>
+Also I get my hands dirty with some back end applications written in Python and NodeJS.</div>
+<h2>Get in touch</h2>
+<div class="ltext">I am available for remote opprotunity, collaborations and interesting projects. If you would like to build something together, contact me.
+<br>
+<a href="tel:79670239475">7 (967) 023 94 75</a>
+<br>
+<a href="mailto:nikitaarkhipov2002@mail.ru">nikitaarkhipov2002@mail.ru</a>
+<br>
+<a href="https://t.me/Simon_eon">t.me/Simon_eon</a>
+<br>
+<a href="https://bitbucket.org/blakmius">bitbucket.org/blakmius</a>
+<br>
+<a href="https://github.com/blackmius">github.com/blackmius</a></div>
+<h2>My recent projects</h2>
+<table align="center"> 
+<tr>
+<td align="center">
+<img class="figure" width=80% src="./pcv_arkhipov_files/1storum.png">
+<br>
+<a href="https://storum.ru/">STORUM: Grocery online hypermarket with delivery</a><br><br></td>
+<td align="center">
+<img class="figure" width=80% src="./pcv_arkhipov_files/3ovoshi.png">
+<br>
+<a href="https://xn----dtbhcl7acadbp2d0bu5a.xn--p1ai/">Online store of vegetables and fruits</a></td>
+</tr>
+<tr>
+<td align="center">
+<img class="figure" width=80% src="./pcv_arkhipov_files/4medtechnika.png">
+<br>
+<a href="https://medtehnika1.ru">Prices for medical equipment and health products at Rostov</a><br><br></td>
+<td align="center">
+<img class="figure" width=80% src="./pcv_arkhipov_files/5superpochod.png">
+<br>
+<a href="https://superpohod.ru">Superpohod</a></td>
+</tr>
+<tr>
+<td align="center">
+<img class="figure" width=80% src="./pcv_arkhipov_files/6ivanovo.png">
+<br>
+<a href="https://texrio.ru/katalog-tovarov-rio/">RIO Ivanovo textile catalog</a></td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>
